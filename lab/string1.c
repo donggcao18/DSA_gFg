@@ -20,6 +20,7 @@ int main ()
             printf ("\n");
             printf ("%c", str[i]);
             flag = 0;
+            
         }
         else 
         {

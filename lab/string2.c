@@ -4,6 +4,7 @@
 int main ()
 {
     char str[100][100];
+    
     int number, i;
     scanf("%d", &number);
 
@@ -16,5 +17,7 @@ int main ()
     {
         printf ("%s", str[i]);
     }
+
+    
     return 0;
 }
