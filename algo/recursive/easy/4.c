@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+// ind sum of an array
 
 int find_sum (int arr[], int n)
 {
