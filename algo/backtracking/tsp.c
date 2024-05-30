@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int fopt = 10000; //initialize a random big number
+int fopt = 10000;
 int f=0;
 int g=0;
 int x[5];
@@ -37,8 +37,9 @@ void TSP(int k, int c_min, int c[5][5])
 
     for (i = 1; i < 5; i++)
     {
-        if (visited[i] == 0) // ic no city which is visited
+        if (visited[i] == 0)
         {
+        
             visited[i] = 1; // mảk that this city is visited once
             x[k] = i;
             f += c[x[k-1]][x[k]];

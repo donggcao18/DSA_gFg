@@ -18,7 +18,7 @@ void binaryString(int k, int n)
     {
 
         a[k] = i;
-        if (k==n+1)
+        if (k==n)
         {
             printString(n);
             printf("\n");

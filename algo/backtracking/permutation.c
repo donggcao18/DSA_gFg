@@ -7,7 +7,7 @@ void printSolution(int m)
     int i;
     for (i=1; i<=m; i++)
     {
-        printf ("%d", a[i]);
+        printf ("%d ", a[i]);
     }
     printf ("\n");
 }
@@ -25,14 +25,15 @@ int check (int k)
 }
 void permutation (int k, int n)
 {
-    int i;
-    for (i=1; i<=n; i++)
-    {
-        if (k==n+1)
+    if (k==n+1)
         {
             printSolution(n);
             return;
         }
+    int i;
+    for (i=1; i<=n; i++)
+    {
+        
         a[k] = i;
         if (check(k))
         {
